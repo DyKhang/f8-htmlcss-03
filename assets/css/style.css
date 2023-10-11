@@ -41,16 +41,22 @@ a {
 
 /* Header */
 .header {
-  position: sticky;
-  top: -10px;
-  padding-top: 30px;
   background-color: #10375c;
 }
 
 .header-top {
+  background-color: #10375c;
+  padding-top: 30px;
+  padding-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.header-top--sticky {
+  position: sticky;
+  top: -10px;
+  z-index: 2;
 }
 
 .logo {
@@ -163,7 +169,7 @@ a {
 /* Hero */
 .hero {
   display: flex;
-  padding-top: 76px;
+  padding-top: 56px;
   padding-bottom: 110px;
   gap: 113px;
   align-items: center;
@@ -229,5 +235,35 @@ a {
   width: 210px;
   height: 410px;
   border-radius: 0px 6px 6px 0px;
+  object-fit: cover;
+}
+
+/* Services */
+.services {
+  padding-top: 170px;
+}
+
+.services__heading {
+  color: #10375c;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+}
+
+.services__desc {
+  margin: 0 auto;
+  width: 40%;
+  color: #575f66;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 166.667%;
+}
+
+.services__image {
+  width: 570px;
+  height: 570px;
   object-fit: cover;
 }

@@ -241,6 +241,7 @@ a {
 /* Services */
 .services {
   padding-top: 170px;
+  padding-bottom: 170px;
 }
 
 .services__heading {
@@ -253,7 +254,7 @@ a {
 }
 
 .services__desc {
-  margin: 0 auto;
+  margin: 18px auto 70px;
   width: 40%;
   color: #575f66;
   text-align: center;
@@ -266,4 +267,130 @@ a {
   width: 570px;
   height: 570px;
   object-fit: cover;
+  border-radius: 12px;
+}
+
+.services__content .btn {
+  margin-top: 55px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.services__row {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+
+.services-item {
+  display: flex;
+  gap: 19px;
+  padding: 20px 22px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.services-item__icon {
+  color: #10375c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: #eff6fd;
+}
+
+.services-item:hover .services-item__icon,
+.services-item:hover .services-item__icon path {
+  background-color: #2e80ce;
+  fill: #fff;
+  box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+}
+
+.services-item:hover {
+  box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+}
+
+.services-item__body .title {
+  color: #10375c;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.services-item__body .desc {
+  margin-top: 8px;
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 175%;
+}
+
+/* Work */
+.work {
+  padding: 100px 0;
+  background: #f6fbff;
+}
+
+.work__heading {
+  color: #10375c;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+}
+
+.work__desc {
+  margin-top: 18px;
+  width: 40%;
+  color: #575f66;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 166.667%;
+}
+
+.work__list {
+  margin-top: 86px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+}
+
+.work-item {
+  padding: 43px 42px;
+  border: 16px solid #eaf6ff;
+  border-radius: 4px;
+  transition: 0.25s;
+}
+
+.work-item:hover {
+  transform: translateY(-16px);
+  border-color: #2e80ce;
+}
+
+.work-item__heading {
+  margin-top: 18px;
+  color: #10375c;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 138.462%;
+}
+
+.work-item__desc {
+  margin-top: 28px;
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 175%;
+}
+
+.work-item__cta {
+  display: inline-block;
+  margin-top: 18px;
+  color: #2e80ce;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 175%;
 }

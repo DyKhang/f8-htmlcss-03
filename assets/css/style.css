@@ -530,3 +530,49 @@ a {
   color: #fff;
   background-color: #2e80ce;
 }
+
+/* Install */
+.install {
+  padding-top: 265px;
+  padding-bottom: 170px;
+}
+
+.install .container {
+  display: flex;
+  gap: 160px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  background: #2e80ce;
+  padding: 0 70px;
+}
+
+.install__image {
+  margin-top: -95px;
+  display: block;
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+}
+
+.install-content__heading {
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+}
+
+.install-content__desc {
+  margin-top: 18px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 166.667%;
+}
+
+.install-content__images {
+  display: flex;
+  gap: 28px;
+  margin-top: 38px;
+}

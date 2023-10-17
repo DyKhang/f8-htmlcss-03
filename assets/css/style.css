@@ -819,6 +819,11 @@ a {
   line-height: 185.714%;
 }
 
+.column-3__item:hover a,
+.column-2__item:hover a {
+  text-decoration: underline;
+}
+
 .column-4 {
   width: 28.38%;
 }
